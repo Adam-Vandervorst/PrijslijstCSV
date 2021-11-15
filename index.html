@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Process price list</title>
+    <style>
+        #drop {
+            border: 2px dashed #bbb;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            padding: 25px;
+            text-align: center;
+            font: 20pt bold, "Vollkorn";
+            color: #bbb
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div id="drop">Drop the price list .xlsx file here</div>
+    <input type="file" name="xlfile" id="xlf"/> or select it here
+</div>
+<div id="out"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.6/shim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.6/xlsx.full.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
